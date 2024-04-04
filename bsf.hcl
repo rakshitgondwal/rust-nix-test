@@ -5,7 +5,7 @@ packages {
 }
 
 rustapp {
-  projectName         = "name = \"hello-world\"hello-world"
+  projectName         = "hello-world"
   release             = true
   rustVersion         = ""
   rustToolchain       = ""
