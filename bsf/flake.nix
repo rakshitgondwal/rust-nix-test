@@ -36,7 +36,6 @@
 	  packages = forEachSupportedSystem ({ pkgs,
 		
 		
-		
 		 nixpkgs-a731d0cb71c58f56895f71a5b02eda2962a46746-pkgs, 
 		 nixpkgs-ac5c1886fd9fe49748d7ab80accc4c847481df14-pkgs, 
 		 }: {
@@ -44,8 +43,7 @@
 			
 			
 			
-			 inherit CrateName;
-			 inherit rustPkgs;
+			 inherit pkgs;
 			
 		};
 	  });
