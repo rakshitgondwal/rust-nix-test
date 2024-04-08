@@ -7,7 +7,7 @@ packages {
 rustapp {
   projectName         = "hello-world"
   release             = true
-  rustVersion         = ""
+  rustVersion         = "1.75.0"
   rustToolchain       = ""
   rustChannel         = ""
   rustProfile         = ""
